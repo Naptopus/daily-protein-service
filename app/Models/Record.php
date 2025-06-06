@@ -9,6 +9,7 @@ class Record extends Model
     protected $fillable = [
         'date',
         'target',
+        'user_id'
     ];
 
     public function user()
